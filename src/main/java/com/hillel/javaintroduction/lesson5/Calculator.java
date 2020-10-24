@@ -10,7 +10,7 @@ public class Calculator {
 
     }
 
-    public int divide( double a, double b){
+    public static double divide( double a, double b){
 
         double resultAn = 0;
         resultAn = a / b;
@@ -18,7 +18,7 @@ public class Calculator {
 
 
     }
-    public int multiply (double a, double b){
+    public static double multiply (double a, double b){
 
         double resultAn = 0;
         resultAn = a * b;
