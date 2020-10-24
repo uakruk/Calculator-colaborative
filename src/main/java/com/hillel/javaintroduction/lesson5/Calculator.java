@@ -12,6 +12,11 @@ public class Calculator {
         resultKrol = a - b;
         return resultKrol;
     }
+    public static double minus (double a, double b){
+        double resultViktor = 0;
+        resultViktor = a+b;
+        return resultViktor;
+    }
 }
 
 
