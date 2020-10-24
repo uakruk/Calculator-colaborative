@@ -7,18 +7,18 @@ public class Calculator {
     }
 
     public static double multiply(double a, double b) {
-
         double dbResult = 0;
         dbResult = a * b;
+
         return dbResult;
 
 
     }
 
     public static double divide(double a, double b) {
-
         double dbResult = 0;
         dbResult = a / b;
+
         return dbResult;
     }
 }
