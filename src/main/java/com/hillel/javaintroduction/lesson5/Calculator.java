@@ -9,7 +9,6 @@ public class Calculator {
     public  static double signChange(double signChange) {
         signChange = 0;
         double resultBer = -signChange;
-        double resultBer = resultBer;
         System.out.println(resultBer);
         return resultBer;
 
