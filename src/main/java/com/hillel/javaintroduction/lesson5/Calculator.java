@@ -4,5 +4,17 @@ public class Calculator {
 
     public static void main(String[] args) {
 
+
+
+
+
+    }
+
+    public int dividing( double a, double b){
+
+        double Anresult = 0;
+        Anresult = a / b;
+        return Anresult;
+
     }
 }
