@@ -10,11 +10,13 @@ public class Calculator {
 
     }
 
-    public int dividing( double a, double b){
+    public int divide( double a, double b){
 
         double Anresult = 0;
         Anresult = a / b;
         return Anresult;
+
+
 
     }
 }
