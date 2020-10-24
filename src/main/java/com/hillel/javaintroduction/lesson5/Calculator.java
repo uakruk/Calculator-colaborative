@@ -6,13 +6,13 @@ public class Calculator {
     }
 
 
-    public static double plus(double a, double b) {
+    public static double minus (double a, double b) {
 
         double resultKrol = 0;
         resultKrol = a - b;
         return resultKrol;
     }
-    public static double minus (double a, double b){
+    public static double plus (double a, double b){
         double resultViktor = 0;
         resultViktor = a+b;
         return resultViktor;
