@@ -3,12 +3,6 @@ package com.hillel.javaintroduction.lesson5;
 public class Calculator {
 
     public static void main(String[] args) {
-        stepen(3, 2);
-        stepen(3, 1);
-        stepen(2,3);
-        stepen(3,0);
-        stepen(3, -1);
-
     }
 
     public static double stepen(double number, int degree) {
@@ -21,5 +15,9 @@ public class Calculator {
         }
         System.out.println(number);
         return number;
+    }
+
+    public static double plus (double a, double b) {
+        return a+b;
     }
 }
