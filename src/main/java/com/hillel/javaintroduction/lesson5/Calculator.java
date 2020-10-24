@@ -4,14 +4,21 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-        }
+    }
 
     public static double multiply(double a, double b) {
 
-        double DBresult = 0;
-        DBresult = a * b;
-        return DBresult;
+        double dbResult = 0;
+        dbResult = a * b;
+        return dbResult;
 
 
+    }
+
+    public static double divide(double a, double b) {
+
+        double dbResult = 0;
+        dbResult = a / b;
+        return dbResult;
     }
 }
