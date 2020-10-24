@@ -17,6 +17,12 @@ public class Calculator {
         return Anresult;
 
 
+    }
+    public int multiply (double a, double b){
+
+        double Anresult = 0;
+        Anresult = a * b;
+        return Anresult;
 
     }
 }
