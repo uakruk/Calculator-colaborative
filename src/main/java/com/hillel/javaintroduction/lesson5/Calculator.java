@@ -12,17 +12,17 @@ public class Calculator {
 
     public int divide( double a, double b){
 
-        double Anresult = 0;
-        Anresult = a / b;
-        return Anresult;
+        double resultAn = 0;
+        resultAn = a / b;
+        return resultAn;
 
 
     }
     public int multiply (double a, double b){
 
-        double Anresult = 0;
-        Anresult = a * b;
-        return Anresult;
+        double resultAn = 0;
+        resultAn = a * b;
+        return resultAn;
 
     }
 }
