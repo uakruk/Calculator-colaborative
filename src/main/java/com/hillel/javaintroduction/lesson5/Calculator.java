@@ -11,7 +11,7 @@ public class Calculator {
                 number = number * number;
             }
         } else {
-            number = 0;
+            number = 1;
         }
         System.out.println(number);
         return number;
