@@ -10,11 +10,13 @@ public class Calculator {
         signChange = 0;
         double resultBer = -signChange;
         double resultBer = resultBer;
+        System.out.println(resultBer);
         return resultBer;
 
     }
     public static double modulus(double a, double b){
         double resultMod = a % b;
+        System.out.println(resultMod);
         return resultMod;
     }
 }
