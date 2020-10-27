@@ -18,6 +18,13 @@ public class Calculator {
 
         return resultAn;
     }
+    public static double modules(double a, double b) {
+        double psresult;
+
+        psresult = a % b;
+        System.out.println(psresult);
+        return psresult;
+    }
 
     public static double stepen(double number, int degree) {
         if (degree > 0) {
@@ -27,9 +34,16 @@ public class Calculator {
         } else {
             number = 1;
         }
-        System.out.println(number);
+            return number;
+    }
 
-        return number;
+    public static double signChange(double signChange){
+      signChange = 0;
+      double resultBer = - signChange;
+      System.out.println(resultBer);
+      return resultBer;
+
+
     }
 
     public static double plus(double a, double b) {
