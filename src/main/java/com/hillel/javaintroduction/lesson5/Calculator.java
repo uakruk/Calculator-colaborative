@@ -61,16 +61,21 @@ public class Calculator {
         System.out.println("Enter the first number: ");
         firstNumber = Double.parseDouble(scanner.nextLine());
 
+        double result = 0;
+
         if (requiresSecondNumber) {
             System.out.println("Enter the second number: ");
             secondNumber = Double.parseDouble(scanner.nextLine());
-        }
 
-        double result = 0;
-
-        switch (operation) {
-            default:
-                System.out.println("Aborting");
+            switch (operation) {
+                // your operations
+                case PLUS:
+                    // and so on and so on
+                default:
+                    System.out.println("Aborting, unknown operation.");
+            }
+        } else {
+            // call the signChange() method here
         }
 
         System.out.println("Result = " + result);
