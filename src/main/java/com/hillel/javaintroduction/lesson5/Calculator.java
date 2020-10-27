@@ -5,6 +5,15 @@ public class Calculator {
     public static void main(String[] args) {
     }
 
+
+    public static double multiply(double a, double b) {
+        double dbResult = 0;
+        dbResult = a * b;
+
+        return dbResult;
+
+
+    }
     public static double stepen(double number, int degree) {
         if (degree > 0) {
             for (int i = 1; i < degree; i++) {
@@ -28,5 +37,12 @@ public class Calculator {
         double resultKrol = 0;
         resultKrol = a - b;
         return resultKrol;
+    }
+
+    public static double divide(double a, double b) {
+        double dbResult = 0;
+        dbResult = a / b;
+
+        return dbResult;
     }
 }
