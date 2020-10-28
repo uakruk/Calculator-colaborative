@@ -40,23 +40,23 @@ public class Calculator {
         switch (operationChar) {
             case '+':
                 operation = Operation.PLUS;
-                result = plus(firstNumber, secondNumber);
+//                result = plus(firstNumber, secondNumber);
                 break;
             case '-':
                 operation = Operation.MINUS;
-                result = minus(firstNumber, secondNumber);
+//                result = minus(firstNumber, secondNumber);
                 break;
             case '/':
                 operation = Operation.DIVIDE;
-                result = divide(firstNumber,secondNumber);
+//                result = divide(firstNumber,secondNumber);
                 break;
             case '*':
                 operation = Operation.MULTIPLY;
-                result = multiply(firstNumber,secondNumber);
+//                result = multiply(firstNumber,secondNumber);
                 break;
             case '%':
                 operation = Operation.MODULUS;
-                result = modules(firstNumber, secondNumber);
+//                result = modules(firstNumber, secondNumber);
                 break;
             case '^':
                 operation = Operation.STEPEN;
@@ -64,7 +64,7 @@ public class Calculator {
                 break;
             case '~':
                 operation = Operation.SIGN_CHANGE;
-                result = signChange(firstNumber);
+//                result = signChange(firstNumber);
                 break;
             default:
                 System.out.println("Unkonwn operation, aborting.");
@@ -83,37 +83,6 @@ public class Calculator {
         System.out.println("Result = " + result);
     }
 
-    public static double plus(double a, double b) {
-
-        return a + b;
-    }
-
-    public static double minus(double a, double b) {
-
-        double resultKrol = 0;
-        resultKrol = a - b;
-        return resultKrol;
-    }
-    public static double divide(double a, double b){
-        double resultAn = 0;
-        resultAn = a / b;
-
-        return resultAn;
-    }
-
-    public static double multiply(double a, double b) {
-        double resultAn = 0;
-        resultAn = a * b;
-
-        return resultAn;
-    }
-    public static double signChange(double signChange) {
-        signChange = 0;
-        double resultBer = -signChange;
-        System.out.println(resultBer);
-        return resultBer;
-    }
-
     public static double stepen(double number, int degree) {
         if (degree > 0) {
             for (int i = 1; i < degree; i++) {
@@ -123,13 +92,5 @@ public class Calculator {
             number = 1;
         }
         return number;
-    }
-
-    public static double modules(double a, double b) {
-        double psresult;
-        psresult = a % b;
-        System.out.println(psresult);
-
-        return psresult;
     }
 }
