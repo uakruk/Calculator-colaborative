@@ -85,26 +85,15 @@ public class Calculator {
         signChange = 0;
         double resultBer = -signChange;
         System.out.println(resultBer);
+
         return resultBer;
 
     }
     public static double modulus(double a, double b){
         double resultMod = a % b;
         System.out.println(resultMod);
+
         return resultMod;
     }
-    public static double minus (double a, double b) {
 
-        double resultKrol = 0;
-        resultKrol = a - b;
-        return resultKrol;
-    }
-    public static double plus (double a, double b){
-        double resultViktor = 0;
-        resultViktor = a + b;
-        return resultViktor;
-    }
-  }
-
-
-
+}
