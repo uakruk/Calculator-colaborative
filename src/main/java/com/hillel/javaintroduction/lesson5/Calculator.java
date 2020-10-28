@@ -80,4 +80,16 @@ public class Calculator {
 
         System.out.println("Result = " + result);
     }
+
+    public static double faktorial(double number) {
+        if (number <= 1 ) {
+            return 1;
+        } else {
+            int n = 1;
+            for (int i = 2; number >= i; i++) {
+                n = n * i;
+            }
+            return n;
+        }
+    }
 }
