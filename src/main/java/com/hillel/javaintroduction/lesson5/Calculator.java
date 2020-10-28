@@ -16,10 +16,6 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-        double result = 0;
-        double firstNumber;
-        double secondNumber = 0;
-        boolean requiresSecondNumber = true;
         Operation operation = null;
         Scanner scanner = new Scanner(System.in);
 
@@ -27,15 +23,6 @@ public class Calculator {
 
         String read = scanner.nextLine();
         char operationChar = read.charAt(0);
-
-
-        System.out.println("Enter the first number: ");
-        firstNumber = Double.parseDouble(scanner.nextLine());
-
-        if (requiresSecondNumber) {
-            System.out.println("Enter the second number: ");
-            secondNumber = Double.parseDouble(scanner.nextLine());
-        }
 
         switch (operationChar) {
             case '+':
@@ -71,16 +58,46 @@ public class Calculator {
                 System.exit(0);
         }
 
+        double firstNumber, secondNumber;
+
+        boolean requiresSecondNumber = true;
         if (operation == Operation.SIGN_CHANGE) {
             requiresSecondNumber = false;
         }
 
-        switch (operation) {
-            default:
-                System.out.println("Aborting");
+        System.out.println("Enter the first number: ");
+        firstNumber = Double.parseDouble(scanner.nextLine());
+
+        double result = 0;
+
+        if (requiresSecondNumber) {
+            System.out.println("Enter the second number: ");
+            secondNumber = Double.parseDouble(scanner.nextLine());
+
+            switch (operation) {
+                // your operations
+                case PLUS:
+                    // and so on and so on
+                default:
+                    System.out.println("Aborting, unknown operation.");
+            }
+        } else {
+            // call the signChange() method here
         }
 
         System.out.println("Result = " + result);
+    }
+
+    public static double faktorial(double number) {
+        if (number <= 1 ) {
+            return 1;
+        } else {
+            int n = 1;
+            for (int i = 2; number >= i; i++) {
+                n = n * i;
+            }
+            return n;
+        }
     }
 
     public static double stepen(double number, int degree) {
