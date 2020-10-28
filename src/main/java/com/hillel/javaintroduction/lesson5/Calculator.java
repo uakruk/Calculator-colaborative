@@ -79,7 +79,6 @@ public class Calculator {
         }
 
         System.out.println("Result = " + result);
-
     }
     public  static double signChange(double signChange) {
         signChange = 0;
