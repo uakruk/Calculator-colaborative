@@ -16,9 +16,9 @@ public class Calculator {
     }
 
     public static double divide(double a, double b) {
-        double dbResult = 0;
-        dbResult = a / b;
+        double resultAn = 0;
+        resultAn = a / b;
 
-        return dbResult;
+        return resultAn;
     }
 }
