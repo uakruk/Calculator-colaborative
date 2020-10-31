@@ -68,32 +68,37 @@ public class Calculator {
             secondNumber = Double.parseDouble(scanner.nextLine());
 
             switch (operation) {
-                // your operations
-                case PLUS:
-                    // and so on and so on
+                case MULTIPLY:
+                    public static double multiply(double a, double b) {
+                    double dbResult = 0;
+                    dbResult = a * b;
+
+                    return dbResult;
+                }
+                case DIVIDE:
+                    public static double divide(double a, double b) {
+                    double resultAn = 0;
+                    resultAn = a / b;
+
+                    return resultAn;
+                }
                 default:
                     System.out.println("Aborting, unknown operation.");
             }
         } else {
-            // call the signChange() method here
+            case SIGN_CHANGE:
+               public static double signChange(double a) {
+                   double dbResult = 0;
+                   dbResult = -a;
+
+                   return dbResult;
+            }
         }
 
         System.out.println("Result = " + result);
     }
 
-    public static double multiply(double a, double b) {
-        double dbResult = 0;
-        dbResult = a * b;
-
-        return dbResult;
 
 
-    }
 
-    public static double divide(double a, double b) {
-        double resultAn = 0;
-        resultAn = a / b;
-
-        return resultAn;
-    }
 }
