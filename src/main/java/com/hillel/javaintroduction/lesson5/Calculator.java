@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class Calculator {
 
     enum Operation {
-        PLUS,
-        MINUS,
-        MULTIPLY,
         DIVIDE,
+        MINUS,
         MODULUS,
-        STEPEN,
-        SIGN_CHANGE;
+        MULTIPLY,
+        PLUS,
+        SIGN_CHANG,
+        STEPEN
+
     }
 
     public static void main(String[] args) {
