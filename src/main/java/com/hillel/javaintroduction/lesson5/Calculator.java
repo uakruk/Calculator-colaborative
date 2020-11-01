@@ -87,6 +87,7 @@ public class Calculator {
         } else {
             // call the signChange() method here
         }
+            System.out.println(fibonachy(6));
     }
 
     public static double faktorial(double number) {
@@ -113,15 +114,16 @@ public class Calculator {
     }
 
     public static int fibonachy(int index) {
-        int [] array = new int [index];
-        for(int i = 0 ; i < index; i++) {
-            if(i<=1) {
+        int [] array = new int [index+1];
+        for(int i = 0 ; i <= index; i++) {
+            System.out.println("I = " + i);
+            if(i < 2) {
                 array[i] = i;
             } else {
                 array[i] = array[i-1] + array[i-2];
             }
         }
-        return array[index-1];
+        return array[index];
     }
 
     public static int fibonachyRec(int index) {
