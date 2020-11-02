@@ -12,6 +12,7 @@ public class Calculator {
         System.out.println(psresult);
         return psresult;
     }
+
     public static double signChange(double signChange) {
         signChange = 0;
         double resultBer = -signChange;
@@ -19,14 +20,14 @@ public class Calculator {
         return resultBer;
 
 
-        boolean requiresSecondNumber = true;
+    /*    boolean requiresSecondNumber = true;
         if (operation == Operation.SIGN_CHANGE) {
             requiresSecondNumber = false;
         }
 
-}
+    }
 
-        System.out.println("Result = " + result);
+  /*     System.out.println("Result = " + result);
     }
     public  static double signChange(double signChange) {
         signChange = 0;
@@ -35,7 +36,7 @@ public class Calculator {
 
         return resultBer;
 
-    }
-    public static double modulus(double a, double b){
+}
+    public static double modulus(double a, double b) {
         double resultMod = a % b;
         System.out.println(resultMod);
