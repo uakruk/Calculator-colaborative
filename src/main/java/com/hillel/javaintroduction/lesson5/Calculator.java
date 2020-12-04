@@ -82,13 +82,11 @@ public class Calculator {
         System.out.println("Result = " + result);
     }
 
-    public int divide( double a, double b){
-
+    public static double divide(double a, double b){
         double resultAn = 0;
         resultAn = a / b;
+
         return resultAn;
-
-
     }
     public int multiply (double a, double b){
 
