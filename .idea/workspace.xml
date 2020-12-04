@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b79a634f-64e7-453c-bde4-99af06d8ccef" name="Default Changelist" comment="ignore sys files">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/minus" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="divide-branch" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1jkmipf0OqVeGgvn2tXAO4EQJbS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b79a634f-64e7-453c-bde4-99af06d8ccef" name="Default Changelist" comment="" />
+      <created>1604356593759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604356593759</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ignore sys files">
+      <created>1607108440960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607108440960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ignore sys files">
+      <created>1607109678510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607109678510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/alexeyananchenko/JAVA/Calculator-colaborative/src/main/java/com/hillel/javaintroduction/lesson5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/divide-branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore sys files" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore sys files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="48" key="#Java" timestamp="1607109292112">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="447" y="48" key="#Java/0.23.1680.959@0.23.1680.959" timestamp="1607109292112" />
+    <state x="615" y="334" key="#Notifications" timestamp="1607109571373">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="615" y="334" key="#Notifications/0.23.1680.959@0.23.1680.959" timestamp="1607109571373" />
+    <state x="354" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607108217134">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="354" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.959@0.23.1680.959" timestamp="1607108217134" />
+    <state x="235" y="124" width="1309" height="758" key="DiffContextDialog" timestamp="1607110285552">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="235" y="124" width="1309" height="758" key="DiffContextDialog/0.23.1680.959@0.23.1680.959" timestamp="1607110285552" />
+    <state x="477" y="253" key="IDE.errors.dialog" timestamp="1607107649144">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="477" y="253" key="IDE.errors.dialog/0.23.1680.959@0.23.1680.959" timestamp="1607107649144" />
+    <state x="191" y="107" key="MergeDialog" timestamp="1604525935967">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="191" y="107" key="MergeDialog/0.23.1680.959@0.23.1680.959" timestamp="1604525935967" />
+    <state x="501" y="270" key="MultipleFileMergeDialog" timestamp="1604525936040">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="501" y="270" key="MultipleFileMergeDialog/0.23.1680.959@0.23.1680.959" timestamp="1604525936040" />
+    <state x="351" y="83" key="SettingsEditor" timestamp="1607109314404">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="351" y="83" key="SettingsEditor/0.23.1680.959@0.23.1680.959" timestamp="1607109314404" />
+    <state x="489" y="243" key="Vcs.Push.Dialog.v2" timestamp="1607108453312">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="489" y="243" key="Vcs.Push.Dialog.v2/0.23.1680.959@0.23.1680.959" timestamp="1607108453312" />
+    <state x="643" y="244" key="VcsDiffUtil.ChangesDialog" timestamp="1607109840264">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="643" y="244" key="VcsDiffUtil.ChangesDialog/0.23.1680.959@0.23.1680.959" timestamp="1607109840264" />
+    <state x="661" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607109850556">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="661" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1607109850556" />
+    <state x="643" y="223" key="git4idea.branch.GitSmartOperationDialog" timestamp="1607109930405">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="643" y="223" key="git4idea.branch.GitSmartOperationDialog/0.23.1680.959@0.23.1680.959" timestamp="1607109930405" />
+  </component>
+</project>

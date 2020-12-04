@@ -1,0 +1,20 @@
+Index: src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.hillel.javaintroduction.lesson5;\n\npublic class Calculator {\n\n    public static void main(String[] args) {\n\n\n\n\n\n    }\n\n    public int divide( double a, double b){\n\n        double resultAn = 0;\n        resultAn = a / b;\n        return resultAn;\n\n\n    }\n    public int multiply (double a, double b){\n\n        double resultAn = 0;\n        resultAn = a * b;\n        return resultAn;\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java	(revision bad78932dc3d1a569b097d2f84480367bde31d61)
++++ src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java	(date 1607109928630)
+@@ -4,10 +4,6 @@
+ 
+     public static void main(String[] args) {
+ 
+-
+-
+-
+-
+     }
+ 
+     public int divide( double a, double b){

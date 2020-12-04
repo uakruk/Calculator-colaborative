@@ -1,0 +1,128 @@
+Index: src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java
+===================================================================
+--- src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java	(revision 119eb466df0446355be721613f54d33b9af0e860)
++++ src/main/java/com/hillel/javaintroduction/lesson5/Calculator.java	(revision 119eb466df0446355be721613f54d33b9af0e860)
+@@ -1,105 +0,0 @@
+-package com.hillel.javaintroduction.lesson5;
+-
+-import java.util.Scanner;
+-
+-public class Calculator {
+-
+-    enum Operation {
+-        DIVIDE,
+-        MINUS,
+-        MODULUS,
+-        MULTIPLY,
+-        PLUS,
+-        SIGN_CHANG,
+-        STEPEN
+-
+-    }
+-
+-    public static void main(String[] args) {
+-
+-        Operation operation = null;
+-        Scanner scanner = new Scanner(System.in);
+-
+-        System.out.println("Enter the operation you want to perform:");
+-
+-        String read = scanner.nextLine();
+-        char operationChar = read.charAt(0);
+-
+-        switch (operationChar) {
+-            case '+':
+-                operation = Operation.PLUS;
+-                break;
+-            case '-':
+-                operation = Operation.MINUS;
+-                break;
+-            case '/':
+-                operation = Operation.DIVIDE;
+-                break;
+-            case '*':
+-                operation = Operation.MULTIPLY;
+-                break;
+-            case '%':
+-                operation = Operation.MODULUS;
+-                break;
+-            case '^':
+-                operation = Operation.STEPEN;
+-                break;
+-            case '~':
+-                operation = Operation.SIGN_CHANGE;
+-                break;
+-            default:
+-                System.out.println("Unkonwn operation, aborting.");
+-                System.exit(0);
+-        }
+-
+-        double firstNumber, secondNumber;
+-
+-        boolean requiresSecondNumber = true;
+-        if (operation == Operation.SIGN_CHANGE) {
+-            requiresSecondNumber = false;
+-        }
+-
+-        System.out.println("Enter the first number: ");
+-        firstNumber = Double.parseDouble(scanner.nextLine());
+-
+-        double result = 0;
+-
+-        if (requiresSecondNumber) {
+-            System.out.println("Enter the second number: ");
+-            secondNumber = Double.parseDouble(scanner.nextLine());
+-
+-            switch (operation) {
+-                case MULTIPLY:
+-                    public static double multiply(double a, double b) {
+-                    double dbResult = 0;
+-                    dbResult = a * b;
+-
+-                    return dbResult;
+-                }
+-                case DIVIDE:
+-                    public static double divide(double a, double b) {
+-                    double resultAn = 0;
+-                    resultAn = a / b;
+-
+-                    return resultAn;
+-                }
+-                default:
+-                    System.out.println("Aborting, unknown operation.");
+-            }
+-        } else {
+-            case SIGN_CHANGE:
+-               public static double signChange(double a) {
+-                   double dbResult = 0;
+-                   dbResult = -a;
+-
+-                   return dbResult;
+-            }
+-        }
+-
+-        System.out.println("Result = " + result);
+-    }
+-
+-
+-
+-
+-}
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Compiled class file\n*.class\n\n# Log file\n*.log\n\n#ignore sys files\n.idea/*\n\n# BlueJ files\n*.ctxt\n\n# Mobile Tools for Java (J2ME)\n.mtj.tmp/\n\n# Package Files #\n*.jar\n*.war\n*.nar\n*.ear\n*.zip\n*.tar.gz\n*.rar\n\n# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\nhs_err_pid*\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 119eb466df0446355be721613f54d33b9af0e860)
++++ .gitignore	(date 1607109556326)
+@@ -5,7 +5,7 @@
+ *.log
+ 
+ #ignore sys files
+-.idea/*
++.idea/
+ 
+ # BlueJ files
+ *.ctxt
